@@ -4,7 +4,7 @@
     <p>{{ event.time }} on {{ event.date }} @ {{ event.location }}</p>
     <p>{{ event.description }}</p>
   </div>
-  <div v-else>Loading....</div>
+  <div v-else>Loading.....</div>
 </template>
 
 <script>
